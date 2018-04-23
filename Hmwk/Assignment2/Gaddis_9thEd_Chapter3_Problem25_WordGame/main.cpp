@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
     cout << "Please enter your age: ";
     cin >> age;
     cin.ignore();
-    cout << "Please enter the name of a city: ";
+    cout << "\nPlease enter the name of a city: ";
     getline(cin, city);
     cout << "Please enter the name of a college: ";
     getline(cin, college);
@@ -42,8 +42,8 @@ int main(int argc, char** argv) {
     //Map/Process Inputs to Outputs
     
     //Display Outputs
-    cout << "There once was a person named " << name << " who lived in a "
-            << city << ". At the age of " << age << ", " << name <<
+    cout << "There once was a person named " << name << " who lived in a city "
+            "called " << city << ". At the age of " << age << ", " << name <<
             " went to college at " << college << ". " << name <<
             " graduated and went to work as a " << profession <<
             ". Then, " << name << " adopted a(n) " << animal << " named "
